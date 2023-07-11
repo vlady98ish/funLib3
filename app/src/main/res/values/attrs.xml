@@ -9,5 +9,6 @@
             <enum name="italic" value="2"/>
         </attr>
         <attr name="customFontSize" format="dimension"/>
+        <attr name="customTextColor" format="color" />
     </declare-styleable>
 </resources>
