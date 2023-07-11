@@ -36,9 +36,14 @@ public class FunFactsLoadingView extends LinearLayout {
                 R.styleable.FunFactsLoadingView,
                 0, 0);
         Drawable backgroundDrawable;
-
+        float fontSize;
+        int fontStyle;
+        String fontFamily;
         try {
             backgroundDrawable = a.getDrawable(R.styleable.FunFactsLoadingView_backgroundImage);
+            fontSize = a.getDimension(R.styleable.FunFactsLoadingView_customFontSize, 15); // Default size is 15sp
+            fontStyle = a.getInt(R.styleable.FunFactsLoadingView_customFontStyle, 0); // Default style is normal
+            fontFamily = a.getString(R.styleable.FunFactsLoadingView_customFontFamily); // Default is null
 
         } finally {
             a.recycle();
@@ -56,13 +61,9 @@ public class FunFactsLoadingView extends LinearLayout {
         textView = findViewById(R.id.funFactTextView);
 
         // These lines should be here, after the textView is initialized.
-        float fontSize = a.getDimension(R.styleable.FunFactsLoadingView_customFontSize, 15); // Default size is 15sp
         textView.setTextSize(fontSize);
-
-        int fontStyle = a.getInt(R.styleable.FunFactsLoadingView_customFontStyle, 0); // Default style is normal
         textView.setTypeface(null, fontStyle);
 
-        String fontFamily = a.getString(R.styleable.FunFactsLoadingView_customFontFamily); // Default is null
         if (fontFamily != null) {
             Typeface typeface = Typeface.create(fontFamily, Typeface.NORMAL);
             textView.setTypeface(typeface);
