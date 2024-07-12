@@ -2,5 +2,12 @@
 <resources>
     <declare-styleable name="FunFactsLoadingView">
         <attr name="backgroundImage" format="reference"/>
+        <attr name="customFontFamily" format="string"/>
+        <attr name="customFontStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="customFontSize" format="dimension"/>
     </declare-styleable>
 </resources>
