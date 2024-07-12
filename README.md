@@ -10,7 +10,7 @@ To add this library to your project, add the following dependency to your app le
 
 ```groovy
 dependencies {
-    implementation 'com.github.vlady98ish:funLib3:1.0.0'
+    implementation 'com.github.vlady98ish:funLib3:1.0.8'
 }
 ```
 
