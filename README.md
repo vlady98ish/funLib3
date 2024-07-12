@@ -24,9 +24,9 @@ Include the FunFactsLoadingView in your layout file:
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:backgroundImage="@drawable/your_background"
-    app:fontFamily="sans-serif-light"
-    app:fontStyle="normal"
-    app:textSize="18sp" />
+    app:customFontFamily="sans-serif-light"
+    app:customFontStyle="normal"
+    app:customFontSize="18sp" />
 ```
 
 # Programmatic
@@ -46,9 +46,9 @@ funFactsLoadingView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
 The FunFactsLoadingView offers several options for customization:
 
 * **app:backgroundImage:** Set a custom background image.
-* **app:fontFamily:** Set a custom font family.
-* **app:fontStyle:** Set the font style (normal, bold, italic).
-* **app:textSize:** Set the size of the text.
+* **app:customFontFamily:** Set a custom font family.
+* **app:customFontStyle:** Set the font style (normal, bold, italic).
+* **app:customFontSize:** Set the size of the text.
 
 
 ## License
