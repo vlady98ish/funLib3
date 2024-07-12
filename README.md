@@ -4,7 +4,19 @@
 
 FunFactsLoadingView is a custom Android view that displays random fun facts every 15 seconds. The view comes with several customizable options such as font style, size, family, and a custom background image. The fun facts are fetched from a provided API.
 
+
+# Screenshots
+
+
+![Example Image](https://raw.githubusercontent.com/vlady98ish/funLib3/master/smartmockups_ljya6tfl.jpg)
+![Example Image](https://raw.githubusercontent.com/vlady98ish/funLib3/master/smartmockups_ljya76y4.jpg)
+![Example Image](https://raw.githubusercontent.com/vlady98ish/funLib3/master/smartmockups_ljya8sf5.jpg)
+
+
+
 ## Installation
+
+
 
 To add this library to your project, add the following dependency to your app level `build.gradle` file:
 
