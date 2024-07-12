@@ -26,7 +26,9 @@ Include the FunFactsLoadingView in your layout file:
     app:backgroundImage="@drawable/your_background"
     app:customFontFamily="sans-serif-light"
     app:customFontStyle="normal"
-    app:customFontSize="18sp" />
+    app:customFontSize="18sp"
+    app:customFontColor="@color/white"
+     />
 ```
 
 # Programmatic
@@ -49,6 +51,7 @@ The FunFactsLoadingView offers several options for customization:
 * **app:customFontFamily:** Set a custom font family.
 * **app:customFontStyle:** Set the font style (normal, bold, italic).
 * **app:customFontSize:** Set the size of the text.
+* **app:customFontColor:** Set the color of the text.
 
 
 ## License
